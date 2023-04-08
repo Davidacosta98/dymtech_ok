@@ -1,4 +1,5 @@
-const products = JSON.parse(localStorage.getItem("products"));
+const products = [];
+/* const products = JSON.parse(localStorage.getItem("products")); */
 
 function takeDataOfProduct() {
     let nameProduct = document.getElementById("name-product").value;
